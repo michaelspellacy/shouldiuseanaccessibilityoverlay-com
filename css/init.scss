@@ -105,6 +105,10 @@ li {
 margin-bottom: 1em;
 }
 
+header, main {
+font-size: 1.6rem;
+}
+
 .sr-only:not(:focus):not(:active) {
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
