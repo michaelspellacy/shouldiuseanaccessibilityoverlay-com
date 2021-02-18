@@ -109,6 +109,10 @@ header, main, footer {
 font-size: 1.6rem;
 }
 
+h1 {
+margin-top: 0;
+}
+
 .sr-only:not(:focus):not(:active) {
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
