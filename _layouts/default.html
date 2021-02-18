@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">{% if page.noindex %}
+    <meta content="noindex, nofollow" name="robots">{% endif %}
+    <meta content="summary_large_image" name="twitter:card">
+	  <meta content="@Spellacy" name="twitter:creator">
+	  <meta content="http://shouldiuseanaccessibilityoverlay.com/img/no.jpg" name="twitter:image">
+	  <meta content="http://shouldiuseanaccessibilityoverlay.com/img/no.jpg" property="og:image">
+	  <meta content="Bugs Bunny voicing the word, NO." property="og:image:alt">
+	  <meta content="Should I Use An Accessibility Overlay?" property="og:title">
+	  <meta content="Should I Use An Accessibility Overlay?" name="twitter:title">
+	  <meta content="No. Using an accessibility overlay on your website is bad. Here is why..." name="description">
+	  <meta content="No. Using an accessibility overlay on your website is bad. Here is why..." property="og:description">
+	  <meta content="No. Using an accessibility overlay on your website is bad. Here is why..." name="twitter:description">
+    <link href="/favicon.png" rel="icon">
+    <link href="/css/init.css" rel="stylesheet">
+    <script>document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");</script>
+    <title>Should I Use An Accessibility Overlay?</title>
+</head>
+
+<body id="a11y-{{ page.path | replace:'.html',''|  replace:'.md','' | replace:'_','' | replace: '/', '-'}}">
+
+  <div id="page">
+
+    <header id="banner">
+
+      <h1>Should I Use An Accessibility Overlay?</h1>
+
+    </header>
+
+    <main id="content">
+
+      {{ content }}
+
+      <section id="contribute">
+
+        <h2>Contribute</h2>
+
+        <p>If you wish to contribute, <a href="https://guides.github.com/activities/forking/">fork</a> this <a href="{{ site.repo }}">project</a>, make some changes, and <a href="https://guides.github.com/activities/forking/#making-a-pull-request">create a pull request</a>.</p>
+
+        <p>New to GitHub? <a href="https://guides.github.com/activities/hello-world/">Learn the basics with the guide</a> and <a href="https://guides.github.com/introduction/flow/">learn the GitHub flow</a>.</p>
+
+        <p>Or you can can just make a request to fix or add something by <a href="{{ site.repo }}/issues">opening an issue</a>. There is also <a href="mailto:{{ site.owner-email }}">email</a>.<p>
+
+      </section>
+
+    </main>
+
+    <footer id="contentinfo">
+
+      <p><small>The content of this site is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</small></p>
+
+      <p><small>Website by <a href="https://michaelspellacy.com">Michael Spellacy</a>.</small></p>
+
+    </footer>
+
+  </div>
+
+</body>
+</html>

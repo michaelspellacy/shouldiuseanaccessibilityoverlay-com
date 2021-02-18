@@ -1,0 +1,116 @@
+---
+---
+
+/*!
+
+  Should I Use An Accessibility Overlay?
+
+  Author: Michael "Spell" Spellacy, Email: {{site.owner-email}}, Twitter: @spellacy, GitHub: michaelspellacy
+
+  Dependencies: Sass
+  Instructions: To run locally, install Sass (https://sass-lang.com/install), CL to directory this file in and run:
+  sass --watch init.scss:init.css --style compressed
+
+*/
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+a {
+
+  &.external {
+  background: transparent url(data:image/gif;base64,R0lGODlhCgAKAJECAP///5mZmQAAAAAAACH5BAEAAAIALAAAAAAKAAoAAAIalIMZJgH/1gGJqugQpFzH7TlWJVJMGZ0KwhQAOw==)center right no-repeat;
+  padding-right: 14px;
+
+    &:focus, &:hover {
+    background: url(data:image/gif;base64,R0lGODlhCgAKAJECAP///2eIpAAAAAAAACH5BAEAAAIALAAAAAAKAAoAAAIalIMZJgH/1gGJqugQpFzH7TlWJVJMGZ0KwhQAOw==)center right no-repeat;
+    }
+
+  }
+
+}
+
+body {
+font-family: Tahoma,Verdana,Segoe,sans-serif;
+font-size: 100%;
+font-style: normal;
+font-variant: normal;
+line-height: 1.6;
+margin: 0;
+padding: 1em;
+}
+
+hr {
+border: 0;
+border-bottom: 1px dashed #666;
+margin: 3em 0 2em;
+}
+
+html {
+box-sizing: border-box;
+
+  @media (prefers-reduced-motion: no-preference) {
+
+    scroll-behavior: smooth;
+
+  }
+
+}
+
+img {
+display: block;
+max-width: 100%;
+}
+
+input, select, textarea, button {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearnace: none;
+}
+
+input, button {
+transition: all 0.1s linear;
+}
+
+input:not([type="checkbox"]), select, button {
+border-radius: 0;
+box-sizing: border-box;
+line-height: normal;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearnace: none;
+}
+
+input[type="checkbox"], input[type="radio"] {
+-webkit-appearance: checkbox;
+-moz-appearance: checkbox;
+appearnace: checkbox;
+}
+
+select::-ms-expand {
+display: none !important;
+}
+
+video {
+height: auto;
+width: 100%;
+}
+
+img {
+border-radius: 10px;
+}
+
+li {
+margin-bottom: 1em;
+}
+
+.sr-only:not(:focus):not(:active) {
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+height: 1px;
+overflow: hidden;
+position: absolute;
+white-space: nowrap;
+width: 1px;
+}
