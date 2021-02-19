@@ -115,6 +115,13 @@ margin-top: 0;
 line-height: 1.4;
 }
 
+#contribute {
+background-color: #eee;
+border: 1px #000 solid;
+border-radius: 10px;
+padding: 0 1em;
+}
+
 .sr-only:not(:focus):not(:active) {
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
