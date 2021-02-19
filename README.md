@@ -1,3 +1,3 @@
 # Should I Use An Accessibility Overlay?
 
-Public repository of information on why accessibility overlays should be avoided on your website.
+Just enough information for stakeholders and a compilation of posts on why accessibility overlays should be avoided on your website.
