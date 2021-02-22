@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">{% if page.noindex %}
     <meta content="noindex, nofollow" name="robots">{% endif %}
-    <meta name="google-site-verification" content="_A4S0rCeFrPO8YixrPzPvcogZnhg_sGokdQBmloQTqU">
     <meta content="summary_large_image" name="twitter:card">
     <meta content="@Spellacy" name="twitter:creator">
     <meta content="http://shouldiuseanaccessibilityoverlay.com/img/no.jpg" name="twitter:image">
@@ -32,25 +31,21 @@
 
     <main id="content">
 
-      <article>
-
-        {{ content }}
-
-      </article>
-
-      <section id="contribute">
-
-        <h3>Contribute</h3>
-
-        <p>If you wish to contribute, <a href="https://guides.github.com/activities/forking/">fork</a> this <a href="{{ site.repo }}">project</a>, make some changes, and <a href="https://guides.github.com/activities/forking/#making-a-pull-request">create a pull request</a>.</p>
-
-        <p>New to GitHub? <a href="https://guides.github.com/activities/hello-world/">Learn the basics with the guide</a> and <a href="https://guides.github.com/introduction/flow/">learn the GitHub flow</a>.</p>
-
-        <p>Or you can can just make a request to fix or add something by <a href="{{ site.repo }}/issues">opening an issue</a>. There is also <a href="mailto:{{ site.owner-email }}">email</a>.<p>
-
-      </section>
+      {{ content }}
 
     </main>
+
+    <aside id="contribute">
+
+      <h3>Contribute</h3>
+
+      <p>If you wish to contribute, <a href="https://guides.github.com/activities/forking/">fork</a> this <a href="{{ site.repo }}">project</a>, make some changes, and <a href="https://guides.github.com/activities/forking/#making-a-pull-request">create a pull request</a>.</p>
+
+      <p>New to GitHub? <a href="https://guides.github.com/activities/hello-world/">Learn the basics with the guide</a> and <a href="https://guides.github.com/introduction/flow/">learn the GitHub flow</a>.</p>
+
+      <p>Or you can can just make a request to fix or add something by <a href="{{ site.repo }}/issues">opening an issue</a>. There is also <a href="mailto:{{ site.owner-email }}">email</a>.<p>
+
+    </aside>
 
     <footer id="contentinfo">
 
