@@ -32,15 +32,13 @@ a {
 }
 
 body {
-font-family: Tahoma,Verdana,Segoe,sans-serif;
+font-family: Tahoma,Verdana, Segoe, sans-serif;
 font-size: 100%;
 font-style: normal;
 font-variant: normal;
 line-height: 1.6;
 margin: 0;
 padding: 1em;
-max-width: 100ch;
-margin: 0 auto;
 }
 
 footer {
@@ -60,10 +58,6 @@ h1 {
 font-size: 2.8rem;
 line-height: 1.4;
 margin-top: 0;
-}
-
-header, main, footer {
-font-size: 1.6rem;
 }
 
 hr {
@@ -88,49 +82,23 @@ border-radius: 10px;
 border: 2px #000 solid;
 display: block;
 max-width: 100%;
-}
-
-input, select, textarea, button {
--webkit-appearance: none;
--moz-appearance: none;
-appearnace: none;
-}
-
-input, button {
-transition: all 0.1s linear;
-}
-
-input:not([type="checkbox"]), select, button {
-border-radius: 0;
-box-sizing: border-box;
-line-height: normal;
--webkit-appearance: none;
--moz-appearance: none;
-appearnace: none;
-}
-
-input[type="checkbox"], input[type="radio"] {
--webkit-appearance: checkbox;
--moz-appearance: checkbox;
-appearnace: checkbox;
+width: 100%;
 }
 
 li {
 margin-bottom: 1em;
 }
 
-select::-ms-expand {
-display: none !important;
-}
-
-video {
-height: auto;
-width: 100%;
-}
-
 #contribute {
 background-color: #eee;
 border-radius: 10px;
 border: 1px #000 solid;
+font-size: 1.3rem;
 padding: 0 1em;
+}
+
+#page {
+font-size: 1.6rem;
+margin: 0 auto;
+max-width: 860px;
 }
