@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" class="no-js">
+<html lang="en-US">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">{% if page.noindex %}
@@ -17,11 +17,10 @@
     <meta content="No. Using an accessibility overlay on your website is a bad idea. Here is why..." name="twitter:description">
     <link href="/favicon.png" rel="icon">
     <link href="/css/init.css" rel="stylesheet">
-    <script>document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");</script>
     <title>Should I Use An Accessibility Overlay?</title>
 </head>
 
-<body id="a11y-{{ page.path | replace:'.html',''|  replace:'.md','' | replace:'_','' | replace: '/', '-'}}">
+<body id="a11y-overlay-{{ page.path | replace:'.html',''|  replace:'.md','' | replace:'_','' | replace: '/', '-'}}">
 
   <div id="page">
 
