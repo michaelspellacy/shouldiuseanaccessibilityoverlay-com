@@ -14,6 +14,11 @@ box-sizing: inherit;
 }
 
 a {
+color: #B02745;
+
+  &:focus, &:hover {
+  text-decoration: none;
+  }
 
   &[target="_blank"] {
   background: transparent url(data:image/gif;base64,R0lGODlhCgAKAJECAP///5mZmQAAAAAAACH5BAEAAAIALAAAAAAKAAoAAAIalIMZJgH/1gGJqugQpFzH7TlWJVJMGZ0KwhQAOw==)center right no-repeat;
@@ -28,6 +33,7 @@ a {
 }
 
 body {
+background-color: #eee;
 font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-size: 100%;
 font-style: normal;
@@ -80,14 +86,12 @@ font-size: 1.7rem;
 }
 
 #contentinfo, #contribute {
-background-color: #eaeaea;
 border: 1px #000 solid;
 font-size: 1.3rem;
 padding: 0 1em;
 }
 
 #contentinfo {
-background-color: #eaeaea;
 border-top: 0;
 
   a {
