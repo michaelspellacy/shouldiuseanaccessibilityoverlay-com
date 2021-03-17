@@ -7,10 +7,6 @@
 
   Author: Michael "Spell" Spellacy, Email: {{site.owner-email}}, Twitter: @spellacy, GitHub: michaelspellacy
 
-  Dependencies: Sass
-  Instructions: To run locally, install Sass (https://sass-lang.com/install), CL to directory this file in and run:
-  sass --watch init.scss:init.css --style compressed
-
 */
 
 *, *::before, *::after {
@@ -19,7 +15,7 @@ box-sizing: inherit;
 
 a {
 
-  &.external {
+  &[target="_blank"] {
   background: transparent url(data:image/gif;base64,R0lGODlhCgAKAJECAP///5mZmQAAAAAAACH5BAEAAAIALAAAAAAKAAoAAAIalIMZJgH/1gGJqugQpFzH7TlWJVJMGZ0KwhQAOw==)center right no-repeat;
   padding-right: 14px;
 
@@ -32,32 +28,22 @@ a {
 }
 
 body {
-font-family: Tahoma,Verdana, Segoe, sans-serif;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-size: 100%;
 font-style: normal;
 font-variant: normal;
-line-height: 1.6;
+line-height: 1.7;
 margin: 0;
 padding: 1em;
 }
 
-footer {
-background-color: #DEAEAE;
-border-radius: 10px;
-border: 1px #000 solid;
-padding: 0 1em;
-margin-top: 1em;
-
-  a {
-  color: #000;
-  }
-
-}
-
 h1 {
 font-size: 2.8rem;
-line-height: 1.4;
 margin-top: 0;
+}
+
+h1, h2, h3 {
+line-height: 1.4;
 }
 
 hr {
@@ -89,16 +75,56 @@ li:not(:last-child) {
 margin-bottom: 1em;
 }
 
-#contribute {
-background-color: #eee;
-border-radius: 10px;
+#page {
+font-size: 1.7rem;
+}
+
+#contentinfo, #contribute {
+background-color: #eaeaea;
 border: 1px #000 solid;
 font-size: 1.3rem;
 padding: 0 1em;
 }
 
-#page {
-font-size: 1.6rem;
+#contentinfo {
+background-color: #eaeaea;
+border-top: 0;
+
+  a {
+  color: #000;
+  }
+
+}
+
+#contribute {
+border-bottom: 0;
+}
+
+#banner, #content, #contribute div, #contentinfo div {
 margin: 0 auto;
 max-width: 860px;
+overflow: auto;
+}
+
+.articles {
+
+  span {
+  display: block;
+  font-weight: bold;
+  }
+
+}
+
+.heading {
+
+  a {
+  color: #000;
+  text-decoration: none;
+
+    &:focus, &:hover {
+    text-decoration: underline;
+    }
+
+  }
+
 }
