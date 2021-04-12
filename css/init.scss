@@ -85,14 +85,10 @@ margin-bottom: 1em;
 font-size: 1.7rem;
 }
 
-#contentinfo, #contribute {
+#contentinfo {
 border: 1px #000 solid;
 font-size: 1.3rem;
 padding: 0 1em;
-}
-
-#contentinfo {
-border-top: 0;
 
   a {
   color: #000;
@@ -100,11 +96,7 @@ border-top: 0;
 
 }
 
-#contribute {
-border-bottom: 0;
-}
-
-#banner, #content, #contribute div, #contentinfo div {
+#banner, #content, #contentinfo div {
 margin: 0 auto;
 max-width: 860px;
 overflow: auto;
