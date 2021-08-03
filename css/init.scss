@@ -15,7 +15,6 @@ box-sizing: inherit;
 
 a {
 color: #B02745;
-
   &:focus, &:hover {
   text-decoration: none;
   }
@@ -23,12 +22,13 @@ color: #B02745;
   &[target="_blank"] {
   background: transparent url(data:image/gif;base64,R0lGODlhCgAKAJECAP///5mZmQAAAAAAACH5BAEAAAIALAAAAAAKAAoAAAIalIMZJgH/1gGJqugQpFzH7TlWJVJMGZ0KwhQAOw==)center right no-repeat;
   padding-right: 14px;
-
     &:focus, &:hover {
     background: url(data:image/gif;base64,R0lGODlhCgAKAJECAP///2eIpAAAAAAAACH5BAEAAAIALAAAAAAKAAoAAAIalIMZJgH/1gGJqugQpFzH7TlWJVJMGZ0KwhQAOw==)center right no-repeat;
     }
 
   }
+
+
 
 }
 
@@ -64,12 +64,12 @@ margin: 3em 0 2em;
 
 html {
 box-sizing: border-box;
-
   @media (prefers-reduced-motion: no-preference) {
 
     scroll-behavior: smooth;
 
   }
+
 
 }
 
@@ -79,6 +79,7 @@ border: 2px #000 solid;
 display: block;
 max-width: 100%;
 width: 100%;
+height: auto;
 }
 
 li:not(:last-child) {
@@ -93,10 +94,10 @@ font-size: 1.7rem;
 font-size: 1.3rem;
 padding: 0 1em;
 text-align: center;
-
   a {
   color: #000;
   }
+
 
 }
 
@@ -106,6 +107,10 @@ max-width: 860px;
 }
 
 .articles {
+
+  img {
+  margin-bottom: 1em;
+  }
 
   span {
   display: block;
@@ -119,10 +124,10 @@ max-width: 860px;
   a {
   color: #000;
   text-decoration: none;
-
     &:focus, &:hover {
     text-decoration: underline;
     }
+
 
   }
 
