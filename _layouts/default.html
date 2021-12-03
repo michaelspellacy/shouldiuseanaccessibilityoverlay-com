@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" itemscope itemtype="http://schema.org/Article">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">
@@ -24,17 +24,21 @@
 
     <header id="banner">
 
-      <h1>Should I Use An Accessibility Overlay?</h1>
+      <h1 itemprop="name">Should I Use An Accessibility Overlay?</h1>
 
     </header>
 
     <main id="content">
 
-      {{ content }}
+      <article itemprop="articleBody">
+
+        {{ content }}
+
+      </article>
 
       {% if page.url == "/" %}
 
-      <p class="pubdate">Published: <time datetime="2021-02-18 16:02:33">Thursday, February 18, 2021</time></p>
+      <p class="pubdate">Published: <time datetime="2021-02-18 16:02:33" itemprop="datePublished" content="2021-02-18">Thursday, February 18, 2021</time></p>
 
       {% endif %}
 
@@ -141,7 +145,9 @@
 
       <div>
 
-        <p><small>The content of this site is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>. <br> Created by <a href="https://michaelspellacy.com">Michael Spellacy</a>, "Greedy" Accessibility Consultant". <a href="/contribute/">Contributions</a> to this project are welcome!</small></p>
+        <p><small>The content of this site is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>. <br>
+
+          Created by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="https://michaelspellacy.com" itemprop="name">Michael Spellacy</a></span>, "Greedy" Accessibility Consultant". <a href="/contribute/">Contributions</a> to this project are welcome!</small></p>
 
       </div>
 
