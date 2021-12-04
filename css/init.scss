@@ -4,7 +4,6 @@
 /*!
 
   Should I Use An Accessibility Overlay? (No.)
-
   Author: Michael "Spell" Spellacy, Email: {{site.owner-email}}, Twitter: @spellacy, GitHub: michaelspellacy
 
 */
@@ -149,4 +148,14 @@ overflow: hidden;
 position: absolute;
 white-space: nowrap;
 width: 1px;
+}
+
+#a11y-talks {
+
+  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+
 }
